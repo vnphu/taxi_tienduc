@@ -1,0 +1,37 @@
+block our-institutions 
+    .our-institutions__wrap 
+        .title 
+            |Our institutions
+        .our-institutions__content 
+            .content__nav
+                .nav__title School Filters
+                .input-group
+                    input.form-control(type='text' aria-label='Dollar amount (with dot and two decimal places)')
+                    .input-group-append
+                        span.input-group-text
+                            i.fas.fa-search
+                .select 
+                    select.form-control
+                        option Countries
+                .checkbox
+                    div.checkbox__item 
+                        input(type='checkbox' name='Secondary' value='Secondary' id="Secondary")
+                        label(for='Secondary') Secondary
+                    div.checkbox__item 
+                        input(type='checkbox' name='Graduate' value='Graduate' id="Graduate")
+                        label(for='Graduate')  Graduate
+                    div.checkbox__item 
+                        input(type='checkbox' name='undergraduate' value='Undergraduate' id="Undergraduate")
+                        label(for='Undergraduate')  Undergraduate
+                .button 
+                    .button__clear Clear Filter (1)
+                    .button__filter Filter
+                img(src="./images/home-banner.jpg", alt="")
+            .content__main
+                include our-institutions/our-institutions-item
+                include our-institutions/our-institutions-item
+                include our-institutions/our-institutions-item
+                include our-institutions/our-institutions-item
+                include our-institutions/our-institutions-item
+                include our-institutions/our-institutions-item
+                include our-institutions/our-institutions-item

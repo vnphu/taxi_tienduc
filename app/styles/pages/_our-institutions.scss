@@ -1,0 +1,153 @@
+.our-institutions {
+  background: #e5e5e5;
+  .our-institutions__wrap {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2%;
+    .title {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 48px;
+      color: #343a40;
+    }
+    .our-institutions__content {
+      display: flex;
+      justify-content: space-between;
+      .content__nav {
+        position: relative;
+        img {
+          width: 100%;
+          position: absolute;
+          top: 110%;
+          left: 0;
+        }
+        height: max-content;
+        width: 26%;
+        padding: 20px 16px;
+        border-radius: 6px;
+        background: #fff;
+        .nav__title {
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 27px;
+          display: flex;
+          align-items: center;
+          color: #154175;
+          margin-bottom: 10px;
+        }
+        .input-group {
+          font-size: 26px;
+        }
+        .checkbox {
+          display: flex;
+          flex-wrap: wrap;
+          .checkbox__item {
+            cursor: pointer;
+            label {
+              cursor: pointer;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #343a40;
+            }
+            margin-right: 10px;
+          }
+        }
+        .select {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .button {
+          margin-top: 20px;
+          display: flex;
+          justify-content: space-between;
+          .button__clear {
+            background: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 48%;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+              transition: all 0.2s;
+              opacity: 0.8;
+            }
+          }
+          .button__filter {
+            cursor: pointer;
+            background: #e39717;
+            border-radius: 8px;
+            border: 1px solid #e39717;
+            color: #fff;
+            font-weight: 500;
+            width: 48%;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+              transition: all 0.2s;
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+      .content__main {
+        width: 71%;
+        .our-institutions__item {
+          padding: 16px 24px;
+          background: #fff;
+          border-radius: 8px;
+          margin-bottom: 16px;
+          display: flex;
+          justify-content: space-between;
+          h3 {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+            color: #343a40;
+          }
+          .our-institutions__item--left {
+            width: 82%;
+            .text {
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 21px;
+              color: #6c757d;
+            }
+            .icon {
+              margin: 8px 0px;
+              ul {
+                display: flex;
+                li {
+                  margin-right: 40px;
+                  i {
+                    margin-right: 10px;
+                  }
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color: #6c757d;
+                }
+              }
+            }
+          }
+          .our-institutions__item--right {
+            width: 18%;
+            aspect-ratio: 1/1;
+            img {
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
