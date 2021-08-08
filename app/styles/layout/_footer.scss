@@ -48,7 +48,6 @@
             line-height: 24px;
             padding: 8px 0;
             &.logo1 {
-              padding: 20px 0px;
               img {
                 padding-right: 15px;
               }
@@ -62,8 +61,7 @@
 
 @media only screen and (max-width: 768px) {
   .footer {
-    background: #154175;
-    padding: 5% 0;
+    padding: 2% 0;
     .footer__wrap {
       max-width: 1200px;
       margin: auto;
@@ -73,7 +71,7 @@
       color: #fff;
       .footer__left {
         width: 100%;
-        padding: 2% 8%;
+        padding: 2% 2%;
         ul {
           li {
             padding: 8px 0px;
@@ -97,7 +95,7 @@
       .footer__right {
         display: flex;
         width: 100%;
-        padding: 2% 8%;
+        padding: 2% 2%;
         align-items: flex-start;
         justify-content: space-between;
         .footer__right-one,
@@ -109,7 +107,6 @@
               line-height: 24px;
               padding: 8px 0;
               &.logo {
-                padding: 15px 0px;
                 img {
                   padding-right: 15px;
                 }
@@ -165,7 +162,6 @@
         flex-direction: column;
         .footer__right-one,
         .footer__right-two {
-          margin-bottom: 20px;
           ul {
             li {
               font-weight: 500;
@@ -173,7 +169,6 @@
               line-height: 24px;
               padding: 8px 0;
               &.logo {
-                padding: 15px 0px;
                 img {
                   padding-right: 15px;
                 }
