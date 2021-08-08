@@ -114,7 +114,11 @@ a {
       width: 100%; }
 
 .section2 {
-  width: 100%; }
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center; }
   .section2 .section__wrap {
     max-width: 1200px;
     margin: auto;
