@@ -126,7 +126,8 @@ a {
     .section2 .section__wrap .__titile {
       font-weight: 500;
       color: #545454;
-      font-size: 40px; }
+      font-size: 30px;
+      text-align: center; }
     .section2 .section__wrap .description {
       letter-spacing: 0.5px;
       margin-top: 15px;
